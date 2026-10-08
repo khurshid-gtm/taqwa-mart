@@ -1,0 +1,18 @@
+:root{--g:#17352b;--a:#c8a24a;--bg:#eef2ef;--t:#16211c}
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 "Hind Siliguri","Nirmala UI",sans-serif;background:var(--bg);color:var(--t)}
+a{color:inherit;text-decoration:none}main{max-width:1080px;margin:auto;padding:16px}
+.top{background:var(--a);color:var(--g);text-align:center;font-size:14px;padding:4px}
+nav{background:var(--g);color:#fff;display:flex;gap:16px;align-items:center;justify-content:space-between;padding:10px 16px;flex-wrap:wrap}
+nav span{display:flex;gap:14px;flex-wrap:wrap;font-size:15px}.logo{font-weight:700;font-size:20px;color:var(--a)}
+.hero{background:var(--g);color:#fff;padding:48px 24px;border-radius:6px;margin-bottom:24px}.hero h1{font-size:clamp(26px,5vw,42px);margin:0 0 8px}
+.btn,button{background:var(--g);color:#fff;border:0;padding:8px 16px;border-radius:4px;font:inherit;cursor:pointer;display:inline-block}
+button.alt,.alt{background:#fff;color:var(--g);border:1px solid var(--g)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+.card{background:#fff;padding:10px;border-radius:6px}.card h3{font-size:15px;margin:8px 0 0}.card p{margin:4px 0 8px}.card button{width:100%}
+.ph{aspect-ratio:1;border-radius:4px;position:relative}.ph span{position:absolute;top:8px;left:8px;background:var(--a);color:var(--g);padding:0 8px;border-radius:3px;font-size:13px;font-weight:600}
+.cats{display:flex;gap:10px;flex-wrap:wrap}.cats a{background:#fff;padding:8px 18px;border-radius:20px;border:1px solid var(--g)}
+.pd,.co{display:grid;grid-template-columns:1fr 1fr;gap:24px}.pd label{display:block;margin:10px 0}.pr{font-size:22px}
+table{width:100%;border-collapse:collapse;background:#fff}td{padding:10px;border-bottom:1px solid #dde}
+form{display:grid;gap:10px}input,select,textarea{padding:8px;font:inherit;border:1px solid #9ab;border-radius:4px}
+.tot{font-size:20px}footer{text-align:center;padding:24px;font-size:14px;color:#456}
+@media(max-width:700px){.pd,.co{grid-template-columns:1fr}}
