@@ -1,7 +1,7 @@
 /* ===== কনফিগ: এখানে নিজের GTM ID বসান ===== */
 const CFG={GTM:'GTM-WR34H73W'};
 window.dataLayer=window.dataLayer||[];
-if(CFG.GTM!=='GTM-WR34H73W'){(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer',CFG.GTM)}else console.warn('GTM ID বসানো হয়নি (app.js এর CFG দেখুন)');
+if(CFG.GTM!=='GTM-XXXXXXX'){(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer',CFG.GTM)}else console.warn('GTM ID বসানো হয়নি (app.js এর CFG দেখুন)');
 const C={polo:'পোলো শার্ট',katua:'কাতুয়া',hoodie:'হুডি শার্ট',lungi:'লুঙ্গি',attar:'আতর কম্বো'};
 // [id, name, category, price, old price, colour]
 const P=[['SY-501','Premium Polo Shirt (Ash)','polo',550,790,'#9aa0a6'],['SY-502','Premium Polo Shirt (Navy)','polo',550,790,'#1f3a5f'],['SY-503','Premium Polo Shirt (Olive)','polo',550,790,'#6b7a3a'],['SY-504','Premium Polo Shirt (Maroon)','polo',550,790,'#7a1f2b'],
